@@ -20,8 +20,8 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Inventory.belongsTo(models.Product);
-        Inventory.belongsTo(models.Store);
+        // Inventory.belongsTo(models.Product);
+        // Inventory.belongsTo(models.Store);
       }
     }
   });
