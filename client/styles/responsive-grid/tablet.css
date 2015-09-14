@@ -1,0 +1,48 @@
+.wrapper-boxed {
+	width: 580px;
+}
+
+.container {
+	padding: 0 20px;
+	width: 540px;
+}
+
+.wrapper-unboxed .container {
+	width: 80%;
+}
+
+[class*="column"] {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+.wrapper-boxed  .column-meta-side,
+.wrapper-unboxed  .column-meta-side {
+	margin-left: 0px;
+	width: 100%;
+}
+
+.wrapper-unboxed .column-4.row-with-meta-side {
+	width: 100%;
+}
+
+.full-col-half-width-left,
+.full-col-half-width-right {
+	height: 250px;
+	position: relative;  
+	width: 100%; 
+}
+
+.full-col-half-width-right {
+	left: 0;
+	margin-bottom: -60px;
+}
+
+.col-half-width-left {
+	width: 100%;
+}
+
+.col-half-width-right {
+	margin-left: 0;
+}

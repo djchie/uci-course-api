@@ -1,0 +1,31 @@
+.header {
+	height: 73px;
+}
+
+.header #logo img {
+	margin-top: 15px;
+	height: 40px;
+	width: 73px;
+}
+ 
+.header .right-header {
+	margin-top: 18px;
+}
+
+.header.mobile-header .sf-menu {
+	top: 89px;
+}
+
+.header .sf-menu > li > a {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.bg-img {
+	display: none !important;
+}
+
+.bg-img-fixed {
+	position: absolute;
+}
+

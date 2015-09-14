@@ -1,0 +1,11 @@
+{
+  "name": "express-node-postgresql-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "pg": "^4.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.3.2"
+  }
+}

@@ -1,0 +1,153 @@
+#top-footer h4 {
+	padding-top: 5px;
+}
+
+#bottom-footer ul {
+	float: left;
+	padding-bottom: 15px;
+}
+
+#bottom-footer ul li {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+#meta-side {
+    margin: 0 -20px 16px;
+    padding: 23px 0 0;
+}
+
+#meta-side .section{
+    display: inline-block;
+	margin-top: -11px;
+    vertical-align: top;
+    width: 30%;
+}
+
+#meta-side .section h5 {
+	margin-top: -5px;
+	padding-top: 0;
+    width: auto;
+}
+
+#meta-side .author-image {
+    height: 50px;
+    margin: -7px auto 7px;
+    width: 50px;
+}
+
+#meta-side .social-link {
+    display: inline-block;
+    margin: 1px 3px 10px;
+    vertical-align: middle;
+}
+
+#meta-side .categories div {
+    line-height: 20px;
+    margin: -1px 0 0;
+}
+
+#meta-side .date {
+    display: block;
+}
+
+.comment,
+.comment.inner{
+    padding: 11px 0 8px;
+}
+
+.comment .profile {
+    float: none;
+    display: block;
+    margin: 0 auto -30px;
+    position: relative;
+    z-index: 2;
+}
+
+.comment .comment-bubble,
+.comment-inner .comment-bubble{
+    margin: 0;
+}
+
+.comment .comment-bubble:before,
+.comment .comment-bubble:after {
+    display: none;
+}
+
+.comment.author-comment .profile-name:after {
+    display: block;
+}
+
+#comments .comment+p {
+    margin: 31px 0 5px;
+}
+
+.mobile-no-top-margin {
+	margin-top: -25px;
+}
+
+.mobile-only {
+	display: block;
+}
+
+.mobile-no-display {
+	display: none;
+}
+
+.testimonials-right-container {
+	margin-left: 0;
+}
+
+.row .booking-area {
+	background: #64cce7;
+	position: static;
+	transform: translateY(0);
+}
+
+.booking-area p {
+	margin-bottom: 23px;
+}
+
+.booking-area form {
+	margin: 0 auto;
+	max-width: 370px;
+	padding: 30px 0;
+}
+
+.booking-area .ui-datepicker-trigger,
+.booking-area .ui-datepicker-trigger:hover {
+	color: #fff;
+}
+
+.booking-area input[type="text"],
+.booking-area .select-box,
+.booking-area .select-box:after {
+	border-color: #fff;
+}
+
+.booking-area input[type="text"].error {
+	border-color: #c75223;
+}
+
+.booking-area input[type="text"]:focus,
+.booking-area .select-box.select-boxFocus {
+	border-color: #0f5185;
+}
+
+.booking-area input[type="submit"]:hover {
+	background: #fff;
+	color: #0f5185;
+}
+
+.booking-area span.help-block.form-error {
+	color: #c75223;
+	margin-bottom: 0;
+}
+
+#hero-img-caption-wrapper {
+	bottom: 0;
+}
+
+.diamond-wrapper {
+	margin-top: 63px;
+}

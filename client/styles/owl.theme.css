@@ -1,0 +1,155 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-controls {
+	position: absolute;
+	width: 100%;
+}
+
+.posts-slider .owl-controls {
+	top: -40px;
+}
+
+.testimonials-slider .owl-controls {
+	bottom: -15px;
+}
+
+.gallery-slider-thumbs .owl-controls {
+	top: 43px;
+}
+
+.gallery-small .gallery-slider-thumbs .owl-controls {
+	top: 15px;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-controls .owl-buttons div {
+	border-radius: 50%;
+    color: #fff;
+	display: inline-block;	
+    font-size: 20px;
+	font-weight: bold;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+	transition: background 0.4s;
+    width: 30px;
+}
+
+.owl-next,
+.owl-prev {
+	position: absolute;
+}
+
+.owl-next span {
+	margin-left: 2px;
+}
+
+.gallery-slider-main .owl-controls .owl-buttons div,
+#hero-slider .owl-controls .owl-buttons div {
+	font-size: 36px;
+	font-weight: normal;
+	height: 45px;
+	line-height: 39px;
+	margin-top: -23px;
+	width: 45px;
+}
+
+.gallery-slider-main .owl-prev,
+#hero-slider .owl-prev {
+	left: 4%;
+}
+
+.gallery-slider-main .owl-next,
+#hero-slider .owl-next {
+	right: 4%;
+}
+
+.gallery-slider-thumbs .owl-prev {
+	left: -50px;
+}
+
+.gallery-slider-thumbs .owl-next {
+	right: -10px;
+}
+
+.gallery-small .gallery-slider-thumbs .owl-prev {
+	left: -40px;
+}
+
+.gallery-small .gallery-slider-thumbs .owl-next {
+	right: -20px;
+}
+
+#hero-slider.small-hero .owl-prev,
+#hero-slider.small-hero .owl-next {
+	top: -125px !important;
+}
+
+.posts-slider .owl-next,
+.posts-slider .owl-prev,
+.testimonials-slider .owl-next,
+.testimonials-slider .owl-prev {
+	top: 0 !important;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-controls.clickable .owl-buttons div:hover {
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-pagination {
+	text-align: center;
+}
+
+.owl-controls .owl-page {
+	display: inline-block;
+	margin: 10px 3px 0;
+}
+
+.owl-page span {
+    border: 2px solid;
+    border-radius: 50%;
+	display: block;
+    height: 6px;
+	transition: border-color 0.4s;
+    width: 6px;
+}
+
+#hero-slider .owl-pagination {
+	height: 1px;
+	position: relative;
+	top: -60px;
+}
+
+.gallery-slider-main .owl-pagination {
+	height: 1px;
+	position: relative;
+	top: -50px;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}

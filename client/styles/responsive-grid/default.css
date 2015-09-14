@@ -1,0 +1,35 @@
+.wrapper-boxed,
+.container {
+	margin: 0 auto;
+}
+
+.inner-container:before,
+.inner-container:after,
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.inner-container:after,
+.container:after {
+    clear: both;
+}
+
+.full-col-half-width-left,
+.full-col-half-width-right {
+	height: 100%;
+	overflow: hidden; 
+	position: absolute;  
+	top: 0; 
+	width: 50%; 
+	z-index: 1;
+}
+
+.full-col-half-width-left {
+	left: 0;
+}
+
+.full-col-half-width-right {
+	left: 50%;
+}

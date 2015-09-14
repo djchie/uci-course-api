@@ -1,0 +1,23 @@
+{
+  "development": {
+    "database": "instore_development",
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "instore_test",
+    "username": "root",
+    "password": null,
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "instore_production",
+    "username": "root",
+    "password": null,
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

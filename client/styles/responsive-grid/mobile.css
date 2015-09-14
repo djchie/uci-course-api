@@ -1,0 +1,27 @@
+#wrapper {
+	min-width: 320px;
+}
+
+.wrapper-boxed {
+	width: 100%;
+}
+
+.wrapper-unboxed .container,
+.container {
+	width: auto;
+}
+
+.container {
+	padding: 0 20px;
+}
+
+[class*="column"] {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+.full-col-half-width-left,
+.full-col-half-width-right {
+	height: 200px;
+}
