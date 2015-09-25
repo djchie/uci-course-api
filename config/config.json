@@ -1,23 +1,23 @@
 {
   "development": {
-    "database": "instore_development",
+    "database": "ENTER_DB_DEVELOPMENT_NAME",
     "username": "",
     "password": "",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "ENTER_DB_TYPE"
   },
   "test": {
-    "database": "instore_test",
+    "database": "ENTER_DB_TEST_NAME",
     "username": "root",
     "password": null,
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "ENTER_DB_TYPE"
   },
   "production": {
-    "database": "instore_production",
+    "database": "ENTER_DB_PRODUCTION_NAME",
     "username": "root",
     "password": null,
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "ENTER_DB_TYPE"
   }
 }
