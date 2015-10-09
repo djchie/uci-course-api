@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "username": "dchie",
+      "password": "chiechie",
+      "name": "Derrick",
+      "age": 23,
+      "location": "Cypress",
+      "workouts": [
+        {
+          "name": "6 Pack in 6 Days",
+          "moves": [
+            {
+              "name": "Pistol Squat",
+              "category": "Legs",
+              "weight": 25,
+              "reps": 10
+            },
+            {
+              "name": "Donkey Kicks",
+              "category": "Legs",
+              "weight": 35,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "How to Lose to Win",
+          "moves": [
+            {
+              "name": "Sumo Squat",
+              "category": "Legs",
+              "weight": 30,
+              "reps": 10
+            },
+            {
+              "name": "Inchworms",
+              "category": "Arms",
+              "weight": 45,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "No Love to Love Handles",
+          "moves": [
+            {
+              "name": "Pushup",
+              "category": "Arms",
+              "weight": 10,
+              "reps": 10
+            },
+            {
+              "name": "Pullups",
+              "category": "Core",
+              "weight": 10,
+              "reps": 10
+            },
+            {
+              "name": "Crunches",
+              "category": "Abs",
+              "weight": 5,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "zsmith",
+      "password": "smithsonian",
+      "name": "Zach",
+      "age": 24,
+      "location": "San Francisco",
+      "workouts": [
+        {
+          "name": "Cut the Caboose",
+          "moves": [
+            {
+              "name": "Duck Walk",
+              "category": "Legs",
+              "weight": 15,
+              "reps": 10
+            },
+            {
+              "name": "Star Jumps",
+              "category": "Core",
+              "weight": 15,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Cupcakes Anonymous",
+          "moves": [
+            {
+              "name": "Pushup",
+              "category": "Arms",
+              "weight": 5,
+              "reps": 10
+            },
+            {
+              "name": "Donkey Kicks",
+              "category": "Legs",
+              "weight": 25,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "bvibhagool",
+      "password": "vibhanocci",
+      "name": "Ben",
+      "age": 23,
+      "location": "Bangkok",
+      "workouts": [
+        {
+          "name": "Mission Slimpossible",
+          "moves": [
+            {
+              "name": "Yankers",
+              "category": "Arms",
+              "weight": 15,
+              "reps": 10
+            },
+            {
+              "name": "Crackles",
+              "category": "Core",
+              "weight": 30,
+              "reps": 10
+            },
+            {
+              "name": "Painifier",
+              "category": "Abs",
+              "weight": 35,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Tons of Fun",
+          "moves": [
+            {
+              "name": "Pulldowns",
+              "category": "Arms",
+              "weight": 5,
+              "reps": 10
+            },
+            {
+              "name": "Pushdowns",
+              "category": "Core",
+              "weight": 20,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "lweaver",
+      "password": "weavinator",
+      "name": "Laura",
+      "age": 24,
+      "location": "San Francisco",
+      "workouts": [
+        {
+          "name": "Absolutely Abs",
+          "moves": [
+            {
+              "name": "Crazies",
+              "category": "Chest",
+              "weight": 45,
+              "reps": 10
+            },
+            {
+              "name": "Presses",
+              "category": "Legs",
+              "weight": 20,
+              "reps": 10
+            },
+            {
+              "name": "Killups",
+              "category": "Core",
+              "weight": 85,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "The Real Bootcamp",
+          "moves": [
+            {
+              "name": "Fridgers",
+              "category": "Biceps",
+              "weight": 45,
+              "reps": 10
+            },
+            {
+              "name": "Ballers",
+              "category": "Legs",
+              "weight": 10,
+              "reps": 10
+            },
+            {
+              "name": "Blasters",
+              "category": "Chest",
+              "weight": 25,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
+}

@@ -1,23 +1,19 @@
 {
   "development": {
-    "database": "ENTER_DB_DEVELOPMENT_NAME",
+    "database": "uci_course_development",
     "username": "",
     "password": "",
     "host": "localhost",
-    "dialect": "ENTER_DB_TYPE"
+    "dialect": "postgres"
   },
   "test": {
-    "database": "ENTER_DB_TEST_NAME",
+    "database": "uci_course__test",
     "username": "root",
     "password": null,
     "host": "127.0.0.1",
-    "dialect": "ENTER_DB_TYPE"
+    "dialect": "postgres"
   },
   "production": {
-    "database": "ENTER_DB_PRODUCTION_NAME",
-    "username": "root",
-    "password": null,
-    "host": "127.0.0.1",
-    "dialect": "ENTER_DB_TYPE"
+    "database": ""
   }
 }
