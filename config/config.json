@@ -14,6 +14,6 @@
     "dialect": "postgres"
   },
   "production": {
-    "database": ""
+    "database": "postgres://tdjewrumykvdih:Vk8LRGEt8WaieZ9uXOxSbHOSgo@ec2-54-197-253-142.compute-1.amazonaws.com:5432/d1t68dfvjb4m"
   }
 }
