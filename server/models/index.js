@@ -6,7 +6,7 @@ var config = require(__dirname + '/../../config/config.json')[environment];
 var sequelize;
 
 if (environment === 'production') {
-  sequelize = new Sequelize(config.database);
+  sequelize = new Sequelize(process.env.DB_URL);
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
