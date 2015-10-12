@@ -14,7 +14,7 @@ var config = {
     dialect: "postgres"
   },
   production: {
-    database: process.env.DB_URL
+    database: process.env.DATABASE_URL
   }
 }
 
