@@ -2,11 +2,11 @@ var fs = require("fs");
 var path = require("path");
 var Sequelize = require('sequelize');
 var environment = process.env.NODE_ENV || 'development';
-var config = require(__dirname + '/../../config/config.json')[environment];
+var config = require(__dirname + '/../../config/config.js')[environment];
 var sequelize;
 
 if (environment === 'production') {
-  sequelize = new Sequelize(process.env.DB_URL);
+  sequelize = new Sequelize(config.database);
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
