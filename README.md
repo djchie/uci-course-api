@@ -28,6 +28,8 @@ Welcome! I originally built this as an internal tool to build a UCI app that rel
 - For specialized requests on endpoints, please send me a pm
 
 ## TODO
+- Deployt Scrapy onto API
+- Set Scrapy to scheduler in Heroku
 - Setup CORS
   - Set up development/test/production configurations
 - Test Python pulling everything into database

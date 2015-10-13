@@ -1,5 +1,4 @@
 var router = require('express').Router();
-var validator = require('validator');
 var db = require('../models/index');
 
 router.route('/')
