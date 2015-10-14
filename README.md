@@ -1,5 +1,5 @@
 # UCI Courses API 
-- The API server is deployed on Heroku at <insert api website here>
+- The API server is deployed on Heroku at `uci-course-api.heroku.com`
 
 ## Introduction
 Welcome! I originally built this as an internal tool to build a UCI app that relies on course times and location. While building this out, I thought why not just go ahead and build an API for all of you ambitious UCI developers so that you guys can create amazing apps as well!
