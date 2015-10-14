@@ -28,16 +28,8 @@ Welcome! I originally built this as an internal tool to build a UCI app that rel
 - For specialized requests on endpoints, please send me a pm
 
 ## TODO
-- Deployt Scrapy onto API
 - Set Scrapy to scheduler in Heroku
 - Setup CORS
   - Set up development/test/production configurations
-- Test Python pulling everything into database
-- Deploy API onto Heroku
-  - Setup PostgreSQL
-  - Setup PaperTrail logging
-- Deploy api and database somehow...
 - Format data that enters into database
-  - Deploy scraper onto Heroku with database connection
-    - Make the connection dynamic to production and development
 - Python, when pull in new data, if the row exist, update it, rather than build a new one
